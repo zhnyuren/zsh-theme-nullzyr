@@ -1,7 +1,7 @@
 # Based on theunraveler and wedisagree
 
 PROMPT='%{$fg[magenta]%}[%d] %{$reset_color%}
-%{$fg[magenta]%}[nullzyr] '
+%{$fg[magenta]%}[zyr] '
 
 RPROMPT='${time} %{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}'
 
