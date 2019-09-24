@@ -1,14 +1,13 @@
 # Based on theunraveler and wedisagree
 
-PROMPT='%{$fg[magenta]%}[%d] %{$reset_color%}
-%{$fg[magenta]%}[zyr] '
+PROMPT='%{$fg[magenta]%}[%c] %{$reset_color%}'
 
 RPROMPT='${time} %{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}'
 
 # Local time
 time_enabled="%(?.%{$fg[green]%}.%{$fg[red]%})%*%{$reset_color%}"
 time_disabled="%{$fg[green]%}%*%{$reset_color%}"
-time=$time_enabled
+time=$time_disabled
 
 ZSH_THEME_GIT_PROMPT_PREFIX=""
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
